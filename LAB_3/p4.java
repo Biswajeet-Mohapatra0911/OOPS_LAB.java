@@ -8,9 +8,9 @@ class Account {
 
     void input() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter account number: ");
+        System.out.print("Enter Account number: ");
         accNo = sc.nextInt();
-        System.out.print("Enter balance: ");
+        System.out.print("Enter Balance: ");
         balance = sc.nextDouble();
     }
 
@@ -27,7 +27,7 @@ class Person extends Account {
     void input() {
         Scanner sc = new Scanner(System.in);
         super.input();
-        System.out.print("Enter name: ");
+        System.out.print("Enter Name: ");
         name = sc.next();
         System.out.print("Enter Aadhar number: ");
         aadhar = sc.nextLong();

@@ -38,7 +38,7 @@ public class p1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("1. 2D Sheet");
         System.out.println("2. 3D Box");
-        System.out.print("Enter choice: ");
+        System.out.print("Enter Choice: ");
         int ch = sc.nextInt();
 
         if (ch == 1) {

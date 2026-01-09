@@ -35,7 +35,7 @@ class WoodBox extends Box {
 public class p2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter length width height thickness: ");
+        System.out.print("Enter Length Width Height Thickness: ");
         double l = sc.nextDouble();
         double w = sc.nextDouble();
         double h = sc.nextDouble();
