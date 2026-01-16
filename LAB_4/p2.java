@@ -18,7 +18,7 @@ public class p2 {
 
         // Taking input from user
         for (int i = 0; i < n; i++) {
-            System.out.println("\nEnter details of Toy " + (i + 1));
+            System.out.println("\nEnter Details of Toy " + (i + 1));
 
             System.out.print("Enter Toy ID: ");
             toyId[i] = sc.nextInt();

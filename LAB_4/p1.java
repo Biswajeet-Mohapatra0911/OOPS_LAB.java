@@ -31,7 +31,7 @@ public class p1 {
             System.out.println("Both substrings are present.");
             System.out.println("Concatenated String: " + result);
         } else {
-            System.out.println("Substring condition not satisfied.");
+            System.out.println("Substring condition not Satisfied.");
         }
 
         sc.close();
